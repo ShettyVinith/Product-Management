@@ -37,38 +37,64 @@ Before running this application, make sure you have the following installed:
 
 ## 🛠️ Project Structure
 
+ProductManagementSystem/
+├── src/
+│ ├── dao/
+│ │ └── ProductDAO.java
+│ ├── model/
+│ │ └── Product.java
+│ ├── servlet/
+│ │ ├── AddProductServlet.java
+│ │ ├── UpdateProductServlet.java
+│ │ ├── DeleteProductServlet.java
+│ │ ├── DisplayProductsServlet.java
+│ │ ├── ReportServlet.java
+│ │ └── ReportCriteriaServlet.java
+├── WebContent/
+│ ├── index.jsp
+│ ├── productadd.jsp
+│ ├── productupdate.jsp
+│ ├── productdisplay.jsp
+│ ├── reports.jsp
+│ ├── report_form.jsp
+│ ├── report_result.jsp
+│ ├── css/
+│ │ └── style.css
+├── WEB-INF/
+│ └── web.xml
+└── README.md
+
+
+## 🗄️ Database Setup
+
+### 1. Create Database
+
+```sql
+CREATE DATABASE IF NOT EXISTS productdb;
+USE productdb;
 ```
-└── 📁ProductWebApp
-    └── 📁src
-        └── 📁main
-            └── 📁java
-                └── 📁dao
-                    └── ProductDAO.java
-                └── 📁model
-                    └── Product.java
-                └── 📁servlet
-                    └── AddProductServlet.java
-                    └── DeleteProductServlet.java
-                    └── DisplayProductsServlet.java
-                    └── ReportCriteriaServlet.java
-                    └── ReportServlet.java
-                    └── UpdateProductServlet.java
-            └── 📁webapp
-                └── index.jsp
-                └── 📁META-INF
-                    └── MANIFEST.MF
-                └── productadd.jsp
-                └── productdelete.jsp
-                └── productdisplay.jsp
-                └── productupdate.jsp
-                └── report_form.jsp
-                └── report_result.jsp
-                └── reports.jsp
-                └── 📁WEB-INF
-                    └── 📁lib
-                        └── itextpdf-5.5.13.2.jar
-                        └── mysql-connector-j-9.3.0.jar
-                    └── web.xml
-    └── .classpath
-    └── .project
+
+### 2. Create Tables
+
+```sql
+CREATE TABLE IF NOT EXISTS products (
+    productId INT PRIMARY KEY AUTO_INCREMENT,
+    productName VARCHAR(100) NOT NULL,
+    category VARCHAR(50),
+    price DECIMAL(10,2),
+    quantity INT,
+    sales INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+```
+3. Insert Sample Data
+   
+```sql
+INSERT INTO products (productName, category, price, quantity, sales) VALUES 
+('Laptop', 'Electronics', 75000.00, 50, 250),
+('Phone', 'Electronics', 30000.00, 80, 600),
+('Chair', 'Furniture', 2500.00, 200, 150),
+('Table', 'Furniture', 4500.00, 100, 120),
+('Watch', 'Accessories', 5000.00, 70, 90);
 ```
