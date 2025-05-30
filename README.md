@@ -181,55 +181,37 @@ Update the following properties in `ProductDAO.java`:
 - **Session Timeout**: 30 minutes
 
 ## 📱 Usage
-Add Product: Insert new product details into inventory
+1. **Add Product**: Insert new product details into inventory
+2. **Update Product**: Modify existing product information and stock
+3. **View Products**: Display all products with details
+4. **Delete Product**: Remove product records
+5. **Generate Reports**: Filter and generate reports based on price, category, or sales
+6. **Download Reports**: Export product data reports as PDF files
 
-Update Product: Modify existing product information and stock
+## 🔐 Security Features
+- Input validation and sanitization
+- SQL injection prevention
+- Session management
+- Secure sales and product data handling
 
-View Products: Display all products with details
+## 🤝 Contributing
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Delete Product: Remove product records
-
-Generate Reports: Filter and generate reports based on price, category, or sales
-
-Download Reports: Export product data reports as PDF files
-
-🔐 Security Features
-Input validation and sanitization
-
-SQL injection prevention
-
-Session management
-
-Secure sales and product data handling
-
-🤝 Contributing
-Fork the project
-
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📞 Contact
-Samay Shetty
+## 📞 Contact
+**Shetty Vinith Vijay**
+- Email: vinithshetty9372@gmail.com
+- USN: 4AL22CS144
 
-Email: prakhyatshetty710@gmail.com
-
-USN: 4AL22CS142
-
-🙏 Acknowledgments
-Thanks to the Advanced Java course instructors
-
-Bootstrap for the responsive UI framework
-
-MySQL for the robust database system
-
-Apache Tomcat for the web server
-
-iText library for PDF generation
+## 🙏 Acknowledgments
+- hanks to the Advanced Java course instructors
+- Bootstrap for the responsive UI framework
+- MySQL for the robust database system
+- Apache Tomcat for the web server
+- iText library for PDF generation
