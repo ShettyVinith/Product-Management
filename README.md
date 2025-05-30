@@ -215,7 +215,7 @@ Update the following properties in `ProductDAO.java`:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 📞 Contact
-**Shetty Vinith Vijay**
+- **Shetty Vinith Vijay**
 - Email: vinithshetty9372@gmail.com
 - USN: 4AL22CS144
 
