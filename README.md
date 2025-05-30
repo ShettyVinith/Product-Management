@@ -2,8 +2,8 @@
 
 **Subject Name**: Advanced Java  
 **Subject Code**: BCS613D  
-**Name**: Shetty Prakhyat  
-**USN**: 4AL22CS142  
+**Name**: Shetty Vinith Vijay  
+**USN**: 4AL22CS144  
 **Sem/Section**: VI/C  
 
 A comprehensive web application for managing product inventory, sales data, and business reports built with JSP, Servlets, and MySQL following MVC architecture principles.
@@ -97,4 +97,43 @@ INSERT INTO products (productName, category, price, quantity, sales) VALUES
 ('Chair', 'Furniture', 2500.00, 200, 150),
 ('Table', 'Furniture', 4500.00, 100, 120),
 ('Watch', 'Accessories', 5000.00, 70, 90);
+```
+
+## ⚙️ Installation & Setup
+
+### Step 1: Clone/Download the Project
+Download all the project files and organize them according to the project structure above.
+
+### Step 2: Database Configuration
+- Start your MySQL server
+- Run the database setup scripts provided above
+- Update database credentials in `ProductDAO.java`:
+  
+```java
+public class ProductDAO {
+    private static final String URL = "jdbc:mysql://localhost:3306/productdb";
+    private static final String USERNAME = "your_username";
+    private static final String PASSWORD = "your_password";
+    
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
+    }
+}
+
+```
+### Step 3: Add MySQL JDBC Driver
+1. Download MySQL Connector/J from the official MySQL website
+2. Add the JAR file to your project's `WEB-INF/lib` directory
+3. If using an IDE, add it to your build path
+
+### Step 4: Deploy to Tomcat
+1. Create a new Dynamic Web Project in your IDE
+2. Copy all source files to the appropriate folders
+3. Deploy the project to Tomcat server
+4. Start the Tomcat server
+
+### Step 5: Access the Application
+Open your web browser and navigate to:
+```
+http://localhost:8080/ProductManagement/
 ```
