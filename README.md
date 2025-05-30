@@ -160,13 +160,23 @@ http://localhost:8080/ProductManagement/
 
 ## 📸 Screenshots
 ### Dashboard
-Main dashboard displaying product management options and reports
+![Dashboard](screenshots/dashboard.png)
+*Main dashboard showing payroll overview and quick access to all modules*
 
-Product List
-Product display page with update and delete options
+### Employee Management
+![Employee Registration](screenshots/add.png)
+*Employee registration form with comprehensive details*
 
-Product Reports
-Reports module with criteria selection and result table
+![Employee List](screenshots/display.png)
+*Complete employee directory with search and filter options*
+
+### Salary Structure
+![Update_Salary Structure](screenshots/report.png)
+*Salary component configuration interface*
+
+### Reports Dashboard
+![Reports Dashboard](screenshots/reportGenerated.png)
+*Comprehensive salary and payroll analytics*
 
 ## 🔧 Configuration
 ### Database Connection Properties
