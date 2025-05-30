@@ -36,7 +36,7 @@ Before running this application, make sure you have the following installed:
 * **Web Browser**: Chrome, Firefox, or Edge
 
 ## 🛠️ Project Structure
-
+```
 ProductManagementSystem/
 ├── src/
 │ ├── dao/
@@ -63,7 +63,7 @@ ProductManagementSystem/
 ├── WEB-INF/
 │ └── web.xml
 └── README.md
-
+```
 
 ## 🗄️ Database Setup
 
