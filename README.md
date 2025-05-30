@@ -137,3 +137,99 @@ Open your web browser and navigate to:
 ```
 http://localhost:8080/ProductManagement/
 ```
+
+## 💼 Application Modules
+### Product Management
+- Add new products with name, category, price, quantity, and sales data
+- Update product information and inventory quantities
+- View complete product list with search and sort options
+- Delete products from the database
+
+### Reports & Analytics
+- Products priced above a given value
+- Products by selected category
+- Top N products sorted by:
+  - Price
+  - Quantity
+  - Sales volume
+-Download reports as PDF files
+
+### Sales Management
+- Track total sales per product
+- Generate top-selling product lists
+
+## 📸 Screenshots
+### Dashboard
+Main dashboard displaying product management options and reports
+
+Product List
+Product display page with update and delete options
+
+Product Reports
+Reports module with criteria selection and result table
+
+## 🔧 Configuration
+### Database Connection Properties
+Update the following properties in `ProductDAO.java`:
+- **Database URL**: `jdbc:mysql://localhost:3306/ProductManagement`
+- **Username**: Your MySQL username
+- **Password**: Your MySQL password
+
+### Server Configuration
+- **Default Port**: 8080
+- **Context Path**: `/ProductManagementSystem`
+- **Session Timeout**: 30 minutes
+
+## 📱 Usage
+Add Product: Insert new product details into inventory
+
+Update Product: Modify existing product information and stock
+
+View Products: Display all products with details
+
+Delete Product: Remove product records
+
+Generate Reports: Filter and generate reports based on price, category, or sales
+
+Download Reports: Export product data reports as PDF files
+
+🔐 Security Features
+Input validation and sanitization
+
+SQL injection prevention
+
+Session management
+
+Secure sales and product data handling
+
+🤝 Contributing
+Fork the project
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+📞 Contact
+Samay Shetty
+
+Email: prakhyatshetty710@gmail.com
+
+USN: 4AL22CS142
+
+🙏 Acknowledgments
+Thanks to the Advanced Java course instructors
+
+Bootstrap for the responsive UI framework
+
+MySQL for the robust database system
+
+Apache Tomcat for the web server
+
+iText library for PDF generation
