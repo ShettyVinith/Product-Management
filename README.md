@@ -1,11 +1,5 @@
 # **Product Management System**
 
-**Subject Name**: Advanced Java  
-**Subject Code**: BCS613D  
-**Name**: Shetty Vinith Vijay  
-**USN**: 4AL22CS144  
-**Sem/Section**: VI/C  
-
 A comprehensive web application for managing product inventory, sales data, and business reports built with JSP, Servlets, and MySQL following MVC architecture principles.
 
 ## 🚀 Features
