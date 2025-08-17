@@ -208,14 +208,3 @@ Update the following properties in `ProductDAO.java`:
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📞 Contact
-- **Shetty Vinith Vijay**
-- Email: vinithshetty9372@gmail.com
-- USN: 4AL22CS144
-
-## 🙏 Acknowledgments
-- hanks to the Advanced Java course instructors
-- Bootstrap for the responsive UI framework
-- MySQL for the robust database system
-- Apache Tomcat for the web server
-- iText library for PDF generation
